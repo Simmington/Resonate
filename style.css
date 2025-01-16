@@ -25,7 +25,12 @@ main {
   .footer {
     flex-direction: column;
     height: auto;
-    padding: 10px;
+    padding: 5px;
+    justify-content: center;
+  }
+  .tagline {
+    justify-content: center;
+    align-items: center;
   }
 }
 .nav-bar-container {
@@ -41,11 +46,13 @@ main {
   flex: 1;
   justify-content: center;
   font-size: 1.25em;
-  gap: 50px;
-  width: 95%;
+  width: 100%;
   height: 100px;
-  align-items: flex-end;
+
   flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  gap: 30px;
 }
 
 .nav-item {
@@ -74,6 +81,7 @@ main {
 
 .banner img {
   max-width: 100%;
+  min-width: 500px;
   height: auto;
 }
 
@@ -84,7 +92,7 @@ main {
   flex-direction: column;
   font-size: 1.25em;
   width: 100%;
-  padding: 1px;
+  margin-bottom: 49px;
 }
 
 .sub-card-container {
@@ -164,8 +172,7 @@ main {
 
 .footer {
   display: flex;
-  border: 1px solid red;
-  padding: 0px 10px;
+
   width: 100%;
   height: 150px;
 }
