@@ -9,17 +9,19 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+   
   </head>
   <body>
     <div class="nav-bar-container">
       <div class="navigation-bar">
         <a class="nav-item" href="index.html">Home</a>
-        <a class="nav-item" href="index.html">Subscription</a>
-
-        <a class="nav-item" href="index.html">Login</a>
-        <a class="nav-item" href="index.html">Sign Up</a>
+        <a class="nav-item" href="subscription.html">Subscription Plans</a>
+        <a class="nav-item" href="index.html">Explore Music</a>
+        <a class="nav-item" href="index.html">Login/Sign Up</a>
+        
       </div>
     </div>
+    <div class="header-logo"><img id="head-logo-img" src="images/head-logo.png"></div>
     <main>
       <div class="sub-card-container">
         <a class="checkout" href="checkout.html"
@@ -59,8 +61,60 @@
             >
           </div></a
         >
+        
       </div>
-      
+      <div class="value-tag-container"><span id="value-tag">BEST VALUE</span></div>
+      <div class="table-container">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <td>Features</td>
+            <td>Free</td>
+            <td>Premium</td>
+            <td>Family</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+            Unlimited music streaming</td>
+            <td style="color: green;">✔</td>
+            <td style="color: green;">✔</td>
+            <td style="color: green;">✔</td>
+            </tr>
+            <tr>
+              <td>Ad-free</td>
+              <td style="color: #e9403f;">✘</td>
+              <td style="color: green;">✔</td>
+              <td style="color: green;">✔</td>
+            </tr>
+            <tr>
+            <td>HD Audio Quality</td>
+            <td style="color: #e9403f;">✘</td>
+            <td style="color: green;">✔</td>
+            <td style="color: green;">✔</td>
+            </tr>
+            <tr>
+              <td>Podcasts</td>
+              <td style="color: #e9403f;">✘</td>
+              <td style="color: green;">✔</td>
+              <td style="color: green;">✔</td>
+            </tr>
+            <tr>
+              <td>Audiobooks</td>
+              <td style="color: #e9403f;">✘</td>
+              <td style="color: green;">✔</td>
+              <td style="color: green;">✔</td>
+            </tr>
+            <tr>
+              <td>Access from multiple accounts</td>
+              <td style="color: #e9403f;">✘</td>
+              <td style="color: #e9403f;">✘</td>
+              <td style="color: green;">✔</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
     </main>
     <footer class="footer">
       <div class="footer-text">
@@ -84,6 +138,6 @@
     
     <img src="images/socials.png" id="social-img"></div>
       </div>
-      
+      </footer>
   </body>
 </html>
